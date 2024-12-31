@@ -47,7 +47,7 @@ def setup_axes(ax: plt.Axes):
         s.set_visible(False)
 
     ax.autoscale(False)
-    ax.set_aspect("equal", "datalim")
+    # ax.set_aspect("equal", "datalim")
 
 
 class MatplotlibBackend(Backend):
